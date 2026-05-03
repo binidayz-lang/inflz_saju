@@ -147,7 +147,7 @@ h1{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:600;color:v
 <body>
 <div class="wrap">
   <div class="header">
-    <div class="logo">✦ Inflz Marryz ✦</div>
+    <div class="logo">✦ Inflz Mary ✦</div>
     <h1>온라인 사업<br>운명 타로</h1>
     <div class="divider"><span>✦</span></div>
     <p class="header-desc">두 장의 카드가 당신의 운명을 읽어드립니다</p>
@@ -361,7 +361,7 @@ function particle(){
 }
 
 function share(){
-  const txt=`🔮 인플즈메리 타로 리딩\n\n${p1.kr} ${p1.bizV}\n${p2.kr} ${p2.maryV}\n\n${p1.final}\n\n나도 해봐! 👉`;
+  const txt=`🔮 인플즈메리 타로 리딩\n\n${p1.kr} ${p1.bizV}\n${p2.kr} ${p2.maryV}\n\n${p1.final}\n\n나도 해봐! 👉 https://m.site.naver.com/273Ha`;
   if(navigator.share)navigator.share({title:'인플즈 타로',text:txt});
   else if(navigator.clipboard){navigator.clipboard.writeText(txt);alert('복사됐어요! ✨');}
 }
